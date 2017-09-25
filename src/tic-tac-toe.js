@@ -96,18 +96,3 @@ class TicTacToe {
 }
 
 module.exports = TicTacToe;
-
-let game;
-
-game = new TicTacToe();
-game.nextTurn(2,2);
-game.nextTurn(1,0);
-game.nextTurn(2,1);
-game.nextTurn(1,1);
-game.nextTurn(0,0)
-game.nextTurn(1,2);
-var t = game.getWinner();
-console.log(t)
-
-
-
